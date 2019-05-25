@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Workout OnTime</string>
+    <!-- ACTIVITY -->
+    <string name="activity_add_name">Adding a new timer</string>
+    <string name="activity_settings_name">Settings</string>
+    <string name="activity_timer_list_name">List of timers</string>
+    <string name="activity_modify_name">Update this timer</string>
+    <!-- ACTION -->
+    <string name="action_settings">Settings</string>
+    <!-- TITLE -->
+    <string name="title_list">List</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_stats">Statistics</string>
+    <!-- LIBELLE -->
+    <string name="lib_nb_serie">Set</string>
+    <string name="lib_nb_exo">Exercise</string>
+    <string name="lib_cpt_serie">0</string>
+    <string name="lib_cpt_exo">0</string>
+    <string name="lib_timer">00:00</string>
+    <string name="lib_add_name">Timer</string>
+    <string name="lib_add_exo1">Exercice 1</string>
+    <string name="lib_add_set1">Set 1</string>
+    <string name="lib_counter_mode">Type of cycle counter</string>
+    <string name="lib_counter_incr">Incremental</string>
+    <string name="lib_counter_decr">Decremental</string>
+    <string name="lib_settings_sounds">Select the timer\'s sound</string>
+    <string name="lib_enable_timer_sound">Enable timer sound</string>
+    <string name="lib_sound1">Sound 1</string>
+    <string name="lib_sound2">Sound 2</string>
+    <string name="lib_sound3">Sound 3</string>
+    <string name="lib_sound4">Sound 4</string>
+    <string name="lib_add_instructions">Click on the + button to add a new set.\nHold down the + button to add new exercise.</string>
+    <string name="lib_session"></string>
+    <string name="lib_timerList_instructions">Tap on the timer you want to use.\nLong tap on the timer to update.</string>
+    <string name="lib_timerList_exo">Exercise :</string>
+    <string name="lib_timerList_duree">Duration :</string>
+    <string name="lib_add_hint">Name</string>
+    <string name="lib_timer_libre">Free timer</string>
+    <string name="lib_min">Minute</string>
+    <string name="lib_sec">Second</string>
+    <string name="lib_timerLibre_title">Define the timer</string>
+    <!-- BUTTON -->
+    <string name="btn_start">Start</string>
+    <string name="btn_add_timer">Add</string>
+    <string name="btn_add_exo">+</string>
+    <string name="btn_save">save</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_update_timer">Update</string>
+    <!-- MENU -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add">Add new timer</string>
+    <string name="menu_about">About</string>
+    <!-- DIALOG MESSAGE -->
+    <string name="dialog_about">Developped by Ly Rainui.</string>
+    <string name="dialog_input_empty">An input is empty. You must give a title on a session and each exercises.</string>
+    <string name="dialog_session_exist">This timer name already exist. Please choose another timer name.</string>
+
+
+</resources>

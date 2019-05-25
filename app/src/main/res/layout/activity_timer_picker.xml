@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimerPickerActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <s3a.iut.prototypechrono.TimerPicker
+            android:id="@+id/picker_min"
+            max="59"
+            min="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/btnBackgroundSecondary" />
+
+        <s3a.iut.prototypechrono.TimerPicker
+            android:id="@+id/picker_sec"
+            max="59"
+            min="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/btnBackgroundSecondary" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_saveTimerPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/btnBackgroundPrimary"
+        android:fontFamily="@font/gravity_bold"
+        android:text="@string/btn_save"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lib_timerLibre_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/GravityLibelle" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Workout OnTime</string>
+    <!-- ACTIVITY -->
+    <string name="activity_add_name">Ajouter un nouveau timer</string>
+    <string name="activity_settings_name">Paramètres</string>
+    <string name="activity_timer_list_name">Liste des timers</string>
+    <string name="activity_modify_name">Modifier un timer</string>
+    <!-- ACTION -->
+    <string name="action_settings">Paramètres</string>
+    <!-- TITLE -->
+    <string name="title_list">Liste</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_stats">Statistics</string>
+    <!-- LIBELLE -->
+    <string name="lib_nb_serie">Série</string>
+    <string name="lib_nb_exo">Exercice</string>
+    <string name="lib_cpt_serie">0</string>
+    <string name="lib_cpt_exo">0</string>
+    <string name="lib_timer">00:00</string>
+    <string name="lib_add_name">Timer</string>
+    <string name="lib_add_exo1">Exercice 1</string>
+    <string name="lib_add_set1">Série 1</string>
+    <string name="lib_counter_mode">Type de compteur</string>
+    <string name="lib_counter_incr">Incrémental</string>
+    <string name="lib_counter_decr">Décrémental</string>
+    <string name="lib_settings_sounds">Sélectionner le son du timer</string>
+    <string name="lib_enable_timer_sound">Activer le son du timer</string>
+    <string name="lib_sound1">Son 1</string>
+    <string name="lib_sound2">Son 2</string>
+    <string name="lib_sound3">Son 3</string>
+    <string name="lib_sound4">Son 4</string>
+    <string name="lib_add_instructions">Cliquer sur le bouton + pour ajouter une nouvelle série.\nMaintenir le bouton + pour ajouter un nouveau exercice.</string>
+    <string name="lib_session"></string>
+    <string name="lib_timerList_instructions">Toucher le timer que vous voulez utiliser.\nMaintenir le timer pour modifier.</string>
+    <string name="lib_timerList_exo">Exercice :</string>
+    <string name="lib_timerList_duree">Durée :</string>
+    <string name="lib_add_hint">Nom</string>
+    <string name="lib_timer_libre">Timer libre</string>
+    <string name="lib_min">Minute</string>
+    <string name="lib_sec">Seconde</string>
+    <string name="lib_timerLibre_title">Définir le timer</string>
+    <!-- BUTTON -->
+    <string name="btn_start">Start</string>
+    <string name="btn_add_timer">Ajouter</string>
+    <string name="btn_add_exo">+</string>
+    <string name="btn_save">Sauvegarder</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_update_timer">Modifier</string>
+    <!-- MENU -->
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_add">Ajouter un nouveau timer</string>
+    <string name="menu_about">À propos</string>
+    <!-- DIALOG MESSAGE -->
+    <string name="dialog_about">Developpé par Ly Rainui.</string>
+    <string name="dialog_input_empty">Un champs de texte est vide. Il est nécessaire de donner un titre au timer et aux exercices.</string>
+    <string name="dialog_session_exist">Ce nom de timer existe déjà. Veuillez choisir un autre nom.</string>
+
+
+</resources>

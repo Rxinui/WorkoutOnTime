@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/lib_timer_libre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/gravity_book"
+        android:text="@string/lib_timer_libre"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/sw_timer_libre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/lib_timer_libre"
+        android:checked="false" />
+
+    <View
+        android:id="@+id/divider_libre"
+        android:layout_below="@id/lib_timer_libre"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="?attr/colorControlHighlight" />
+
+    <TextView
+        android:id="@+id/lib_enable_timer_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_libre"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/gravity_book"
+        android:text="@string/lib_enable_timer_sound"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lib_settings_sounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_sound"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/gravity_book"
+        android:text="@string/lib_settings_sounds"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/sw_enable_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_libre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/lib_enable_timer_sound"
+        android:checked="true"
+        android:text="" />
+
+
+
+
+    <View
+        android:id="@+id/divider_sound"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/lib_enable_timer_sound"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="?attr/colorControlHighlight" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rg_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lib_settings_sounds"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_sound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/gravity_book"
+            android:text="@string/lib_sound1" />
+
+        <RadioButton
+            android:id="@+id/rb_sound2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/gravity_book"
+            android:text="@string/lib_sound2" />
+
+        <RadioButton
+            android:id="@+id/rb_sound3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/gravity_book"
+            android:text="@string/lib_sound3" />
+
+        <RadioButton
+            android:id="@+id/rb_sound4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/gravity_book"
+            android:text="@string/lib_sound4" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btnBackgroundPrimary"
+        android:fontFamily="@font/gravity_bold"
+        android:text="@string/btn_save"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp" />
+
+</RelativeLayout>
