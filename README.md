@@ -18,7 +18,13 @@ De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, apr�
 
 ### Page de démarrage
 
-![](screenshots/page-accueil.jpg)
+![Page lors de l'ouverture](screenshots/page-accueil.jpg)
+
+### Création d'un timer
+
+![Formulaire de création](screenshots/create-timer.jpg)
+
+![Formulaire de création rempli](screenshots/chargement-timer-filled.jpg)
 
 
 
