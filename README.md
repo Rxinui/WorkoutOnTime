@@ -16,7 +16,15 @@ Cependant, ses temps de repos varient en fonction des exercices, du types d'entr
 
 De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, après chaque exercice/série, son temps de repos. **Workout OnTime** s'en charge! De même, il s'occupe de compter le nombre d'exercice et série réalisé afin de vous éviter de perdre le compte. ;)
 
-## Fonctionnalités
+### Technologies utilisées
+
+L'utilisation d'**Android Studio** à faciliter le développement de **Workout OnTime**.
+
+Le développement du client a été fait sous Java (imposé) et l'interface graphique à été mis en place avec XML de manière statique et dynamiquement par Java. 
+
+Le SDK 19 (KitKat) a été imposé.
+
+## Présentation
 
 ### Page de démarrage
 
