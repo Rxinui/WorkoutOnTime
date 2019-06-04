@@ -18,5 +18,8 @@ De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, apr�
 
 ### Page de démarrage
 
+![](screenshots/page-accueil.jpg)
+
+
 
 
