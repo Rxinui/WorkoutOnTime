@@ -36,7 +36,14 @@ De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, apr�
 
 ![Lancement du timer](screenshots/start-bras-timer.jpg)
 
+### Les paramètres
 
+![La page settings](screenshots/page-settings.jpg)
 
+### Mode libre activé
+
+![Définition du temps](screenshots/timer-libre.jpg)
+
+![Timer libre chargé](screenshots/timer-libre-charge.jpg)
 
 
