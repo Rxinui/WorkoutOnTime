@@ -26,6 +26,14 @@ De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, apr�
 
 ![Formulaire de création rempli](screenshots/chargement-timer-filled.jpg)
 
+### Sélection d'un timer
+
+![Liste des timers créés](screenshots/chargement-timers.jpg)
+
+![Timer sélectionné](screenshots/bras-charge.jpg)
+
+
+
 
 
 
