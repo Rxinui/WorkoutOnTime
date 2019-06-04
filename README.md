@@ -32,6 +32,9 @@ De cette manière, l'utilisateur ne s'embêtera plus à régler à la main, apr�
 
 ![Timer sélectionné](screenshots/bras-charge.jpg)
 
+### Lancement du timer sélectionné
+
+![Lancement du timer](screenshots/start-bras-timer.jpg)
 
 
 
